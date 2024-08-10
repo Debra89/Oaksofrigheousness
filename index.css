@@ -198,7 +198,26 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
-footer {
+
+ul {
+  display: flex;
+  /* other CSS properties */
+}
+
+li {
+  display: inline;
+  /* other CSS properties */
+}
+
+@media screen and (max-width: 767px) {
+  ul {
+    display: block;
+  }
+
+  li {
+    display: block;
+  }
+}footer {
     text-align: center;
     padding: 3px;
     background-color: green;
