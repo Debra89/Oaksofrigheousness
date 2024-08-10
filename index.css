@@ -200,24 +200,7 @@ img {vertical-align: middle;}
   .text {font-size: 11px}
 }
 
-ul {
-  display: flex;
-  /* other CSS properties */
-}
 
-li {
-  display: inline;
-  /* other CSS properties */
-}
-
-@media screen and (max-width: 767px) {
-  ul {
-    display: block;
-  }
-
-  li {
-    display: block;
-  }
 }footer {
     text-align: center;
     padding: 3px;
