@@ -1,3 +1,4 @@
+/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
 function changeContent(page) {
     var contentDiv = document.getElementById('content');
 
@@ -106,7 +107,6 @@ me>
             contentDiv.innerHTML = '<h2>Page not found!</h2>';
     }
 }
-
 let slideIndex = 0;
 showSlides();
 
@@ -126,4 +126,11 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
-
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
