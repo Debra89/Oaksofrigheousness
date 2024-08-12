@@ -56,8 +56,11 @@ me>
         <p>Located in the heart of Savannah City, just south of Johannesburg, Oaks of Righteousness stands as a beacon of hope and righteousness. Our commitment to creating a lasting legacy for our children shines through every facet of our work, glorifying the Lord in all that we do.</p>
 
         <div class="cta-buttons">
-            <a href="#">Learn More</a>
-            <a href="#">Get Involved</a>
+             <a href="#" onclick="changeContent('about')">Learn More</a>  
+           <a href="#" onclick="changeContent('volunteer')">Get Involved</a>
+ 
+             
+                   
         </div>
     </div>   
             `;
