@@ -105,8 +105,53 @@ me>
 
         default:
             contentDiv.innerHTML = '<h2>Page not found!</h2>';
+
+
+case 'volunteer':
+                contentDiv.innerHTML = 
+                    `<p>Please fill this form if you would like to be involved in the orphanage</p>
+                <form
+                action="https://formspree.io/f/mblryknj"
+                method="POST">
+              <label>
+                Your name:
+                <input type="text" name="name" required placeholder="Your name">
+              </label>
+                <label>
+                  Your email:
+                  <input type="email" name="email" required placeholder="Your email">
+                </label>
+                <label>
+                    Your contact number:
+                    <input type="text" name="contact" placeholder="Your contact number">
+                  </label>
+                <label>
+                 Select area of interest:        
+    </label>
+    <div class="checkbox-group">
+        <label for="mentoring">
+          <input type="checkbox" id="mentoring" name="mentoring">
+         Mentoring
+        </label>
+        <label for="volunteering">
+          <input type="checkbox" id="volunteering" name="volunteering">
+          Volunteering 
+        </label>
+        <label for="fundraising">
+          <input type="checkbox" id="fundraising" name="fundraising">
+          Fundraising
+        </label>
+      </div>
+    <br>
+                <!-- your other form fields go here -->
+                <button type="submit">Send</button>
+              </form>`;
+                break;    
     }
 }
+
+
+
 let slideIndex = 0;
 showSlides();
 
