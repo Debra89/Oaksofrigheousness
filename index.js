@@ -36,27 +36,30 @@ me>
                 break;
         case 'about':
             contentDiv.innerHTML = `
-                <h2>About Us</h2>
-               
-<h2>Mission and Vision</h2>
-               <p><b>Mission: </b>To provide orphaned children with a loving and supportive home environment where
-                they can thrive emotionally, socially, and academically.</p>
-                <p><b>Vision: </b>To empower orphaned children to become confident, compassionate, and successful
-                individuals who positively contribute to society.</p>
-                <h2>Programs and Services</h2>
-                <ul>
-                    <li><b>Residential Care: </b>Providing a safe and loving home environment for orphaned children,
-                        with round-the-clock care from trained caregivers.</li>
-                        <li><b>Education Support:</b>Ensuring access to quality education through partnerships with
-                            local schools, tutoring programs, and educational enrichment activities.</li>
-                            <li><b>Healthcare Services:</b>Meeting the medical and healthcare needs of children through
-                                partnerships with healthcare providers and regular health check-ups.</li>
-                                <li><b>Psychosocial Support:</b>Offering counselling, therapy, and recreational activities to
-                                    promote emotional well-being and resilience.</li>
-                                    <li><b>Life Skills Development:</b>Equipping children with essential life</li>
-                </ul>
-        
-                
+                <div class="container">
+        <h1>About Oaks of Righteousness Orphanage</h1>
+
+        <p>Welcome to Oaks of Righteousness Orphanage, where our journey began with a profound commitment to transforming the lives of vulnerable girls. Established with a heartfelt vision, our orphanage is deeply rooted in the inspiring promise of <strong>Isaiah 61:3</strong>: “They will be called oaks of righteousness, a planting of the Lord for the display of His splendor.” This guiding principle shapes our mission and fuels our dedication to nurturing each girl in our care.</p>
+
+        <h2>Our Mission</h2>
+        <p>At Oaks of Righteousness, our mission is to offer a nurturing, faith-based home for girls from the age of 2 through their transition to university and beyond. We are devoted to providing a comprehensive environment that supports not only academic excellence but also spiritual growth and personal development.</p>
+
+        <div class="highlight">
+            <h2>What Sets Us Apart</h2>
+            <ul>
+                <li><strong>Faith-Centered Approach:</strong> We weave biblical teachings into the fabric of daily life, ensuring that our girls grow up with a strong foundation in Christian values.</li>
+                <li><strong>Comprehensive Support:</strong> From early childhood education to career readiness, our extensive care programs address every aspect of development.</li>
+                <li><strong>Community Impact:</strong> By collaborating with local organizations and community supporters, we enhance our impact and extend our reach.</li>
+            </ul>
+        </div>
+
+        <p>Located in the heart of Savannah City, just south of Johannesburg, Oaks of Righteousness stands as a beacon of hope and righteousness. Our commitment to creating a lasting legacy for our children shines through every facet of our work, glorifying the Lord in all that we do.</p>
+
+        <div class="cta-buttons">
+            <a href="#">Learn More</a>
+            <a href="#">Get Involved</a>
+        </div>
+    </div>   
             `;
             break;
 
